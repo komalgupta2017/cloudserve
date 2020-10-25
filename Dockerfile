@@ -1,4 +1,4 @@
 FROM node:latest
 RUN npm install -g serve
-COPY ./disp ./displ
+COPY ./display ./displ
 CMD serve ./displ
